@@ -1,0 +1,68 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"> 
+  
+   
+     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+    
+    
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script> 
+    
+    
+    <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  </head>
+  <body class="body">
+
+    <div id="mydiv"></div>
+
+    <script type="text/babel">
+      function About() {
+        return(
+<div >
+        
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top mt-0">
+        <a class="navbar-brand brand" href="#">BIT MARK</a>
+        <a class='nav-link n_link' href='index2.html'>Home</a>
+         <a class='nav-link n_link' href='market.html'>Market News</a>
+        <a class='nav-link n_link' href='about.html'>About us</a>
+       
+        
+      </nav>
+        <div class='container' style={{color:'white'}}>
+    <h1>about us</h1>
+
+    <p>We are building the most influential, trusted media platform for a 
+        global community engaged in the transformation of the financial system and the emerging crypto economy.
+         CoinDesk is an integrated platform for news, events, data and research for the next 
+         generation of investing and the future of money.</p>
+         
+         <p>
+            Our leading journalists and cryptocurrency prices are regularly featured in top-tier media including Axios,
+             Bloomberg, Business Insider, CBS News, CNBC, The Economist, Financial Times,
+             Forbes, Fortune, MarketWatch, Nasdaq, The Wall Street Journal, and USA Today, Yahoo Finance!
+         </p>
+
+         <p>Bit Mark Indices are the bellwether for the market. They are the industry standard for 
+             institutional-grade cryptocurrency pricing with billions of dollars in monthly trading volume quoted 
+             against them. The flagship CoinDesk Bitcoin Price Index (XBX) is a spot reference rate for BTC that benchmarks
+              the world's
+              first publicly traded bitcoin fund and the world's first bitcoin ETF.</p>
+
+              <p> Market hosts myriad industry events and webinars each year, including the annual Consensus summit
+               event each May, the largest and most important forward-thinking gathering of stakeholders
+               in the global crypto and blockchain ecosystem.</p></div>
+
+        </div>
+        ) 
+      }
+
+      ReactDOM.render(<About />, document.getElementById('mydiv'))
+    </script>
+
+  </body>
+</html>

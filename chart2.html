@@ -1,0 +1,68 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="index.css">
+    <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+<script src="https://cdn.jsdelivr.net/npm/react-apexcharts"></script>
+
+<style>
+    #root{
+        width:50vw;
+        margin: 0 auto;
+        background-color: white;
+        margin-top: 100px;
+    }
+    h1{
+      margin-top: 40px;
+     text-align: center;
+      color: white;
+    }
+    h3{
+      text-align: center;
+      color: white;
+    }
+</style>
+  </head>
+  <body class="body">
+<h1>Bitcoin Prices in 2021</h1>
+<h3>EUR/BITCOIN</h3>
+    <div id="root"></div>
+
+    <script type="text/babel">
+      var options = {
+  chart: {
+    type: 'line'
+  },
+  series: [{
+    name: 'sales',
+    data: ['48134.50'
+,'51604.29',
+'54238.39',
+'48969.01',
+'34060.75',
+'35590.08',
+'43068.28',
+'44487.54',
+'57457.26',
+'59496.15'
+
+]
+  }],
+  xaxis: {
+    categories: ['January','February','March','April','May','June','July', 'August','September','October','November','December']
+  }
+}
+
+var chart = new ApexCharts(document.querySelector("#root"), options);
+
+chart.render();
+     
+ <script/>
+
+
+    </script>
+
+  </body>
+</html>

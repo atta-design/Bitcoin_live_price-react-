@@ -1,0 +1,11 @@
+(() => {
+  if (typeof window === "object") {
+    setTimeout(function () {
+      document.querySelector("#fusion-app").classList.remove("blur");
+
+      setTimeout(function () {
+        document.querySelector("#fusion-app").classList.remove("blur-after-effect");
+      }, 500);
+    }, 500);
+  }
+})();
