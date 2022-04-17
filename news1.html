@@ -1,76 +1,132 @@
-
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"> 
-  
-   
-     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
-    
-    
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script> 
-    
-    
-    <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
-    <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
+    <link rel="stylesheet" href="index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+    />
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+
+    <script
+      src="https://unpkg.com/react@17/umd/react.development.js"
+      crossorigin
+    ></script>
+    <script
+      src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"
+      crossorigin
+    ></script>
     <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
   </head>
-  <body class="body">
-
+  <body >
     <div id="mydiv"></div>
 
     <script type="text/babel">
       function News1() {
-        return(
-<div class='body_news_txt'>
-        
-        <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top mt-0">
-        <a class="navbar-brand brand" href="#">BIT MARK</a>
-        <a class='nav-link n_link' href='index2.html'>Home</a>
-         <a class='nav-link n_link' href='market.html'>Market News</a>
-        <a class='nav-link n_link' href='about.html'>About us</a>
-       
-        
-      </nav>
-        <div class='container' style={{color:'white'}}>
-            <h1>Bitcoin’s Net Exchange Flows Flip Bearish as Cryptocurrency Struggles for Directional Bias</h1>
-            <img src='./img/7th-July-6.jpg' class='baner'/>
-    <article>
-        <h1>Net inflows imply investor intention to sell, while consistent outflows represent strong holding sentiment.</h1>
-        
-        <p>A blockchain indicator tracking the flow of coins in and out of centralized exchanges is signaling a bearish
-             shift in investor sentiment similar to the one seen before the May 2021 crash.</p>
-             <ul>
+        return (
+          <div className="body_news_txt">
+            <nav className="navbar navbar-expand-sm bg-dark navbar-dark sticky-top mt-0">
+              <a className="navbar-brand brand" href="#">
+                BIT MARK
+              </a>
+              <a className="nav-link n_link" href="index.html">
+                Home
+              </a>
+              <a className="nav-link n_link" href="market.html">
+                Market News
+              </a>
+              <a className="nav-link n_link" href="about.html">
+                About us
+              </a>
+            </nav>
+            <div className="container" style={{ color: "white" }}>
+              <h1>
+                Bitcoin’s Net Exchange Flows Flip Bearish as Cryptocurrency
+                Struggles for Directional Bias
+              </h1>
+              <img src="./img/7th-July-6.jpg"  alt="img" className="baner" />
+              <article>
+                <h1>
+                  Net inflows imply investor intention to sell, while consistent
+                  outflows represent strong holding sentiment.
+                </h1>
 
-<li> <p>Glassnode data shows the 90-day moving average of net exchange flows has turned positive, meaning more coins are
-                  entering exchanges than leaving.</p></li>
-                  <li><p>Sustained net inflows, if any, would be a cause for concern for the bulls.</p></li>
-                  <li><p>Net inflows imply investor intention to sell, while consistent outflows represent strong holding sentiment 
-                      and take out circulating supply from the market, paving the way for price rallies.</p></li>
-                  <li><p>Net inflows imply investor intention to sell, while consistent outflows represent strong holding sentiment and take out 
-                      circulating supply from the market,
-                       paving the way for price rallies.</p></li>
-                  <li><p>The metric consistently signaled outflows with a negative print throughout bitcoin’s 10-fold rally to over $60,000 observed in 11 
-                      months to April 2021.</p></li>
-                  <li><p>A similar pattern was observed in October 2021 when bitcoin rallied 40% to new record highs above $65,000.</p></li>
-<li><p>The Federal Reserve’s December meeting minutes and the U.S. jobs data scheduled for release later this week may inject volatility into the bitcoin market.</p></li>
-<li><p>According to FXStreet, the U.S. economy is expected to have added 400,000 jobs in December after November’s 210,000 additions. Strong data may strengthen the dollar and weight over bitcoin and asset
-     prices, in general.</p></li>
-
-             </ul>
-            
-    </article>
-               
-               
-               </div>
-
-        </div>
-        ) 
+                <p>
+                  A blockchain indicator tracking the flow of coins in and out
+                  of centralized exchanges is signaling a bearish shift in
+                  investor sentiment similar to the one seen before the May 2021
+                  crash.
+                </p>
+                <ul>
+                  <li>
+                    {" "}
+                    <p>
+                      Glassnode data shows the 90-day moving average of net
+                      exchange flows has turned positive, meaning more coins are
+                      entering exchanges than leaving.
+                    </p>
+                  </li>
+                  <li>
+                    <p>
+                      Sustained net inflows, if any, would be a cause for
+                      concern for the bulls.
+                    </p>
+                  </li>
+                  <li>
+                    <p>
+                      Net inflows imply investor intention to sell, while
+                      consistent outflows represent strong holding sentiment and
+                      take out circulating supply from the market, paving the
+                      way for price rallies.
+                    </p>
+                  </li>
+                  <li>
+                    <p>
+                      Net inflows imply investor intention to sell, while
+                      consistent outflows represent strong holding sentiment and
+                      take out circulating supply from the market, paving the
+                      way for price rallies.
+                    </p>
+                  </li>
+                  <li>
+                    <p>
+                      The metric consistently signaled outflows with a negative
+                      print throughout bitcoin’s 10-fold rally to over $60,000
+                      observed in 11 months to April 2021.
+                    </p>
+                  </li>
+                  <li>
+                    <p>
+                      A similar pattern was observed in October 2021 when
+                      bitcoin rallied 40% to new record highs above $65,000.
+                    </p>
+                  </li>
+                  <li>
+                    <p>
+                      The Federal Reserve’s December meeting minutes and the
+                      U.S. jobs data scheduled for release later this week may
+                      inject volatility into the bitcoin market.
+                    </p>
+                  </li>
+                  <li>
+                    <p>
+                      According to FXStreet, the U.S. economy is expected to
+                      have added 400,000 jobs in December after November’s
+                      210,000 additions. Strong data may strengthen the dollar
+                      and weight over bitcoin and asset prices, in general.
+                    </p>
+                  </li>
+                </ul>
+              </article>
+            </div>
+          </div>
+        );
       }
 
-      ReactDOM.render(<News1/>, document.getElementById('mydiv'))
+      ReactDOM.render(<News1 />, document.getElementById("mydiv"));
     </script>
-
   </body>
 </html>
