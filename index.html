@@ -46,7 +46,7 @@
     ></script>
   </head>
 
-  <body className="body">
+  <body >
     <div id="root"></div>
     <script type="text/babel">
       const mocked = {
@@ -137,7 +137,7 @@
                 data-toggle="collapse"
                 data-target="#collapsibleNavbar"
               >
-                <span className="navbar-toggler-icon"></span>
+                <span className="navbar-toggler-icon"/>
               </button>
               <div className="collapse navbar-collapse" id="collapsibleNavbar">
                 <a className="navbar-brand brand" href="#">
@@ -155,12 +155,7 @@
               </div>
             </nav>
             <div id="demo" className="carousel slide" data-ride="carousel">
-              <ul className="carousel-indicators">
-                <li data-target="#demo" data-slide-to="0" className="active"></li>
-                <li data-target="#demo" data-slide-to="1"></li>
-                <li data-target="#demo" data-slide-to="2"></li>
-              </ul>
-
+            
               <div className="carousel-inner">
                 <div className="carousel-item">
                   <img
@@ -176,26 +171,26 @@
                     className="c_img"
                   />
                 </div>
-                <div classNameName="carousel-item">
+                <div className="carousel-item">
                   <img src="./img/OlGR8c.jpg" alt="Chicago" className="c_img" />
                 </div>
               </div>
 
               <div>
-                <div classNameName="ui segment">
-                  <p></p>
+                <div className="ui segment">
+                  <p/>
                   <div className="ui active dimmer">
                     <div className="ui loader">
-                      <div className="spinner-grow text-dark spinner"></div>
+                      <div className="spinner-grow text-dark spinner"/>
                     </div>
                   </div>
                 </div>
               </div>
               <a className="carousel-control-prev" href="#demo" data-slide="prev">
-                <span className="carousel-control-prev-icon"></span>
+                <span className="carousel-control-prev-icon"/>
               </a>
               <a className="carousel-control-next" href="#demo" data-slide="next">
-                <span className="carousel-control-next-icon"></span>
+                <span className="carousel-control-next-icon"/>
               </a>
             </div>
 
@@ -204,6 +199,7 @@
                 <div className="card-header">
                   <img
                     src="./img/bitcoin-btc-cash-euro-bills_89378-569.jpg"
+                    alt="img"
                     className="card-img"
                   />
                 </div>
@@ -223,6 +219,7 @@
                 <div className="card-header">
                   <img
                     src="./img/https___specials-images.forbesimg.com_imageserve_869259640_0x0.jpg"
+                    alt="img"
                     className="card-img"
                   />
                 </div>
@@ -242,6 +239,7 @@
                 <div className="card-header">
                   <img
                     src="./img/_116329010_tv064829922.jpg"
+                    alt="img"
                     className="card-img"
                   />
                 </div>
@@ -261,6 +259,7 @@
               </div>
             </div>
             <footer className="foot"></footer>
+              
           </div>
         );
       };
